@@ -498,3 +498,57 @@ template {
   color: #FFFFFF;
   padding: 20px 86px;
 }
+
+@media (max-width: 960px) {
+  .rocket {
+    max-width: 230px;
+  }
+  .features__table--column {
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+  .header__nav {
+    margin-bottom: 20px;
+  }
+  .video {
+    width: 100%;
+  }
+  .rocket {
+    max-width: 180px;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    padding-top: 50px;
+  }
+  .video {
+    width: 100%;
+  }
+  .rocket {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .features {
+    padding-bottom: 0;
+  }
+  .features__table {
+    margin-bottom: 0;
+  }
+  .features__table--column {
+    font-size: 14px;
+    width: 200px;
+  }
+}

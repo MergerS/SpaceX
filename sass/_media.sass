@@ -1,3 +1,34 @@
-@media ( max-width:990px)
-
-@media ( max-width:576px)
+@media (max-width:960px)
+  .rocket
+    max-width: 230px
+  .features
+    &__table
+      &--column
+        width: 250px
+@media (max-width:768px)
+  .header
+    flex-direction: column
+    align-items: center
+    &__logo
+      margin-bottom: 20px
+    &__nav
+      margin-bottom: 20px
+  .video
+    width: 100%
+  .rocket
+    max-width: 180px
+@media (max-width:576px)
+  .main
+    padding-top: 50px
+  .video
+    width: 100%
+  .rocket
+    position: static
+    margin-bottom: 20px
+  .features
+    padding-bottom: 0
+    &__table
+      margin-bottom: 0
+      &--column
+        font-size: 14px
+        width: 200px

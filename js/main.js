@@ -7,3 +7,6 @@ var instance = new vidbg(
     overlay: false, // Boolean to display the overlay or not
   });
   var rellax = new Rellax('.rocket');
+  if (document.body.clientWidth < 576){
+    rellax.destroy();
+  }
