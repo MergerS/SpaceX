@@ -549,6 +549,22 @@ template {
   }
   .features__table--column {
     font-size: 14px;
-    width: 200px;
+    width: 150px;
+  }
+  .footer {
+    text-align: centers;
+  }
+  .footer__ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__li {
+    margin-bottom: 10px;
   }
 }
